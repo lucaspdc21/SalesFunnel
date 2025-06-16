@@ -7,3 +7,21 @@
 * Proposta (Proposal): O momento em que você apresenta uma oferta comercial ao lead qualificado.
 * Negociação (Negotiation): A etapa de ajuste de detalhes da proposta, como preço e escopo.
 * Fechamento (Closing): A fase final, que pode resultar em "Ganha" (venda concluída) ou "Perdida".
+
+## Como rodar
+* Criando ambiente virtual
+  ```
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+* Instalando as dependências
+  ```
+  pip install -r requirements.txt
+  ```
+* Crie um arquivo leads.csv com base em leads_exemplo.csv dentro da pasta src/data
+* Rodando
+  ```
+  cd src
+  python3 main.py
+  ```
+  
